@@ -9,7 +9,7 @@ import { subDays } from 'date-fns';
 
 export const GraphData = () => {
     const [startDate, setStartDate] = useState(new Date());
-    const [endDate, setEndDate] = useState(subDays(new Date(), 1));
+    const [endDate, setEndDate] = useState(subDays(new Date(), 10));
 
     let initialData = [
         {

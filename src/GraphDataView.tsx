@@ -8,10 +8,10 @@ export const GraphDataView = ({data}: {data: Array<ProductsData>}) => {
             <Table size={'xl'} bordered hover striped variant='light'>
                 <thead>
                     <tr>
-                    <th>#</th>
-                    <th>פריט</th>
-                    <th>כמות</th>
-                    <th>נטו כולל מע״מ</th>
+                    <th className='fw-bolder text-secondary'>#</th>
+                    <th className='fw-bolder text-secondary font-weight-bold'>פריט</th>
+                    <th className='text-secondary fw-bolder'>כמות</th>
+                    <th className='text-secondary'>נטו כולל מע״מ</th>
                     </tr>
                 </thead>
                 <tbody>

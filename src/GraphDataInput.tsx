@@ -32,7 +32,7 @@ export const GraphDataInput = ({startDate, setStartDate, endDate, setEndDate} : 
             <Form>
                 <Row >
                     <Form.Group as={Row} className="mb-3" controlId="formBasicEmail">
-                        <Form.Label className='text-secondary' column xs={2} >חנות:</Form.Label>
+                        <Form.Label className='fw-bolder text-secondary' column xs={2} >חנות:</Form.Label>
                         <Col xs={10}>
                             <Form.Select aria-label="Default select example">
                                 <option>כל החנויות</option>
@@ -43,7 +43,7 @@ export const GraphDataInput = ({startDate, setStartDate, endDate, setEndDate} : 
                         </Col>                    
                     </Form.Group>
                     <Form.Group as={Row} className="mb-3" controlId="formBasicEmail">
-                        <Form.Label className='text-secondary' column xs={2} >הצג:</Form.Label>
+                        <Form.Label className='fw-bolder text-secondary' column xs={2} >הצג:</Form.Label>
                         <Col xs={10}>
                             <Form.Select aria-label="Default select example">
                                 <option>נטו כולל מע״מ</option>
@@ -78,7 +78,7 @@ export const GraphDataInput = ({startDate, setStartDate, endDate, setEndDate} : 
                             startDate={startDate}
                             endDate={endDate}
                         />
-                        <div className='text-secondary fw-bold ms-3'>טווח תאריכים:</div>
+                        <div className='fw-bolder text-secondary fw-bold ms-3'>:טווח תאריכים</div>
                     </Col>
                 </Row>                
                 <div className='d-block d-sm-none' >

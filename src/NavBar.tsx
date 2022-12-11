@@ -8,7 +8,7 @@ import { useLocation } from 'react-router-dom';
 export const CustomNavBar = () => {
     const a = useLocation();
     return (
-        <Navbar bg="primary" variant='dark' expand="md">
+        <Navbar fixed="top" bg="primary" variant='dark' expand="md">
             <Navbar.Brand className='ms-4' as={Link} to={'/'}>ProfitAge webapp</Navbar.Brand> 
             <Navbar.Toggle aria-controls="basic-navbar-nav" />                 
                 <Navbar.Collapse id="basic-navbar-nav">

@@ -28,7 +28,7 @@ export const GraphDataChart = ({data}: {data: Array<ProductsData>}) => {
                 <YAxis />
                 <Tooltip />
                 <Legend />
-                <Bar dataKey="נטו" fill="#2B3F50" />
+                <Bar dataKey="נטו" fill="#FFB900" />
                 </BarChart>
             </ResponsiveContainer>
         </Container>
