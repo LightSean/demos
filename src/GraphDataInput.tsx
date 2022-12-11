@@ -58,6 +58,7 @@ export const GraphDataInput = ({startDate, setStartDate, endDate, setEndDate} : 
                     <Col xs={12} className='d-flex justify-content-end' style={{direction: 'ltr'}}>                                
                         <DatePicker
                             wrapperClassName={"numaa me-3"}
+                            className={"numaaa"}
                             dateFormat={'dd/MM/yyyy'}
                             locale={he}
                             selected={endDate}
@@ -70,6 +71,7 @@ export const GraphDataInput = ({startDate, setStartDate, endDate, setEndDate} : 
                         <div className='text-muted'>עד</div>
                         <DatePicker
                             wrapperClassName={"numaa ms-3"}
+                            className={"numaaa"}
                             locale={he}
                             dateFormat={'dd/MM/yyyy'}
                             selected={startDate}
@@ -91,6 +93,7 @@ export const GraphDataInput = ({startDate, setStartDate, endDate, setEndDate} : 
                         <Col className='d-flex justify-content-end' style={{direction: 'ltr'}}>                                
                             <DatePicker
                                 wrapperClassName={"numaa"}
+                                className={"numaaa"}
                                 dateFormat={'dd/MM/yyyy'}
                                 locale={he}
                                 selected={endDate}
@@ -111,6 +114,7 @@ export const GraphDataInput = ({startDate, setStartDate, endDate, setEndDate} : 
                         <Col className='d-flex justify-content-end'>
                             <DatePicker
                                 wrapperClassName={"numaa"}
+                                className={"numaaa"}
                                 locale={he}
                                 dateFormat={'dd/MM/yyyy'}
                                 selected={startDate}
